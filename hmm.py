@@ -126,7 +126,7 @@ def viterbi_t( text, hmm):
 
 if __name__ == "__main__":
     #text_to_state()
-    text = "我们一起来玩游戏"
+    text = "今天天气不错"
 
     hmm = HMM()
     hmm.train()
